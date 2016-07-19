@@ -24,7 +24,7 @@ class BaseModel(Model):
     '''A BaseModel class for other tables to inherit from.'''
     database = db
     id = PrimaryKeyField(primary_key=True, unique=True)
-    created_at = DateTimeField(default=datetime.now())
+    registration_date = DateTimeField(default=datetime.now())
     updated_at = DateTimeField(default=datetime.now())
 
     def save(self, *args, **kwargs):
