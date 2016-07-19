@@ -1,0 +1,20 @@
+.well-footer {
+  border-radius: 0px !important;
+}
+
+.redtext {
+  color: #c00 !important;
+}
+
+#centerlogo {
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#socialcontainer {
+  display: flex;
+  flex-direction: row;
+}
